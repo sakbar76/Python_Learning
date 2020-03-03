@@ -1,9 +1,10 @@
 type("hello world")
 print("hello world")
-len("Hello workd")
+length= len("Hello World")
 
+print ("Length of Hello World: ",length)
 
 fruit="banana"
 vegetable="cucumber"
 
-print (fruit+vegetable)
+print (fruit+" "+vegetable)
