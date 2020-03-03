@@ -18,3 +18,11 @@ for i in range (4):
 # for case where variable not used in loop
 for _ in range(5):
     print("This is loop without variable")
+
+
+# for loop example 5 with instance of list/object
+numbers = [5, 6, 32, 21, 9]
+running_total = 0
+for number in numbers:
+    running_total = running_total + number
+    print(running_total)
