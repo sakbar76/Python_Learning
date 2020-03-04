@@ -17,7 +17,13 @@ def myFunctionReturns(a,b):
 a=10
 b=20
 
+## calling function with no return value
 myFunction()
+
+print ("value of a: ",a)
+print ("value of b: ",b)
+
+## calling fruitful function
 d=myFunctionReturns(a,b)
 
 print ("Value of d after function call: ",d)
