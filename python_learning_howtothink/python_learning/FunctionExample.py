@@ -12,7 +12,6 @@ def myFunctionReturns(a,b):
     c =a +b
     return c
 
-
 ## calling the function
 a=10
 b=20
@@ -27,3 +26,4 @@ print ("value of b: ",b)
 d=myFunctionReturns(a,b)
 
 print ("Value of d after function call: ",d)
+
