@@ -2,7 +2,8 @@
 
 ## Boolean function with parameters
 def is_divisible (x,y):
-    print ("inside the function")
+
+    print ("Inside the function")
     if x % y == 0:
         return True
     else:
