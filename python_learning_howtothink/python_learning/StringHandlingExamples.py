@@ -22,6 +22,20 @@ print(name[0:7])
 # print string in reverse order
 print(name[::-1])
 
+# print and check for substring in startswith
+print (name.startswith("Shakeel"))
+
+# print and check for substring in endswith
+print (name.endswith("Akbar"))
+
+# Split the string
+split_string=name.split(" ")
+print (split_string)
+
+# enumerate string to a list
+fruit="banana"
+list (enumerate(fruit))
+print (fruit)
 
 
 
